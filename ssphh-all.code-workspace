@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "fluxions",
+			"path": "../fluxions"
+		},
+		{
+			"name": "ssphh-all",
+			"path": "."
+		},
+		{
+			"name": "ssphh-data",
+			"path": "../ssphh-data"
+		},
+		{
+			"name": "glfw-template",
+			"path": "../glfw-template"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"future": "cpp",
+			"memory": "cpp",
+			"random": "cpp",
+			"bitset": "cpp",
+			"optional": "cpp"
+		}
+	}
+}

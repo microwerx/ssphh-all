@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ssphh", "ssphh\ssphh.vcxproj", "{8F93792A-FC28-4E97-A4CC-27EBB0DABDE9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{26F2CC6D-675B-4775-BBFA-949445675DB6} = {26F2CC6D-675B-4775-BBFA-949445675DB6}
+		{CC5438F5-5E12-4F28-8B2F-13359021B095} = {CC5438F5-5E12-4F28-8B2F-13359021B095}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ssphh-tests", "ssphh-tests\ssphh-tests.vcxproj", "{26F2CC6D-675B-4775-BBFA-949445675DB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC5438F5-5E12-4F28-8B2F-13359021B095} = {CC5438F5-5E12-4F28-8B2F-13359021B095}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ssphh-data", "ssphh-data\ssphh-data.vcxproj", "{B76C0F05-FE41-4D30-B657-5BCD101E2FBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fluxions", "fluxions\fluxions.vcxproj", "{CC5438F5-5E12-4F28-8B2F-13359021B095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F93792A-FC28-4E97-A4CC-27EBB0DABDE9}.Debug|x64.ActiveCfg = Debug|x64
+		{8F93792A-FC28-4E97-A4CC-27EBB0DABDE9}.Debug|x64.Build.0 = Debug|x64
+		{8F93792A-FC28-4E97-A4CC-27EBB0DABDE9}.Debug|x86.ActiveCfg = Debug|x64
+		{8F93792A-FC28-4E97-A4CC-27EBB0DABDE9}.Release|x64.ActiveCfg = Release|x64
+		{8F93792A-FC28-4E97-A4CC-27EBB0DABDE9}.Release|x64.Build.0 = Release|x64
+		{8F93792A-FC28-4E97-A4CC-27EBB0DABDE9}.Release|x86.ActiveCfg = Release|x64
+		{26F2CC6D-675B-4775-BBFA-949445675DB6}.Debug|x64.ActiveCfg = Debug|x64
+		{26F2CC6D-675B-4775-BBFA-949445675DB6}.Debug|x64.Build.0 = Debug|x64
+		{26F2CC6D-675B-4775-BBFA-949445675DB6}.Debug|x86.ActiveCfg = Debug|x64
+		{26F2CC6D-675B-4775-BBFA-949445675DB6}.Release|x64.ActiveCfg = Release|x64
+		{26F2CC6D-675B-4775-BBFA-949445675DB6}.Release|x64.Build.0 = Release|x64
+		{26F2CC6D-675B-4775-BBFA-949445675DB6}.Release|x86.ActiveCfg = Release|x64
+		{B76C0F05-FE41-4D30-B657-5BCD101E2FBD}.Debug|x64.ActiveCfg = Debug|x64
+		{B76C0F05-FE41-4D30-B657-5BCD101E2FBD}.Debug|x64.Build.0 = Debug|x64
+		{B76C0F05-FE41-4D30-B657-5BCD101E2FBD}.Debug|x86.ActiveCfg = Debug|x64
+		{B76C0F05-FE41-4D30-B657-5BCD101E2FBD}.Release|x64.ActiveCfg = Release|x64
+		{B76C0F05-FE41-4D30-B657-5BCD101E2FBD}.Release|x64.Build.0 = Release|x64
+		{B76C0F05-FE41-4D30-B657-5BCD101E2FBD}.Release|x86.ActiveCfg = Release|x64
+		{CC5438F5-5E12-4F28-8B2F-13359021B095}.Debug|x64.ActiveCfg = Debug|x64
+		{CC5438F5-5E12-4F28-8B2F-13359021B095}.Debug|x64.Build.0 = Debug|x64
+		{CC5438F5-5E12-4F28-8B2F-13359021B095}.Debug|x86.ActiveCfg = Debug|x64
+		{CC5438F5-5E12-4F28-8B2F-13359021B095}.Release|x64.ActiveCfg = Release|x64
+		{CC5438F5-5E12-4F28-8B2F-13359021B095}.Release|x64.Build.0 = Release|x64
+		{CC5438F5-5E12-4F28-8B2F-13359021B095}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {928B142B-3FD9-40D0-8BE9-E48BB7DF8BE6}
+	EndGlobalSection
+EndGlobal
