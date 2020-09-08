@@ -1,0 +1,9 @@
+[submodule "ssphh"]
+	path = ssphh
+	url = https://github.com/microwerx/ssphh
+[submodule "ssphh-data"]
+	path = ssphh-data
+	url = https://github.com/microwerx/ssphh-data
+[submodule "fluxions"]
+	path = fluxions
+	url = https://github.com/microwerx/fluxions
