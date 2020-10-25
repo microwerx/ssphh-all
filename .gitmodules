@@ -7,3 +7,12 @@
 [submodule "fluxions"]
 	path = fluxions
 	url = https://github.com/microwerx/fluxions
+[submodule "hatchetfish"]
+	path = hatchetfish
+	url = https://github.com/microwerx/hatchetfish
+[submodule "fluxions-gte"]
+	path = fluxions-gte
+	url = https://github.com/microwerx/fluxions-gte
+[submodule "imgui"]
+	path = imgui
+	url = https://github.com/ocornut/imgui
