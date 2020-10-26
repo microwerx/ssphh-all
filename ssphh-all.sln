@@ -18,6 +18,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ssphh-data", "ssphh-data\ss
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fluxions", "fluxions\fluxions.vcxproj", "{CC5438F5-5E12-4F28-8B2F-13359021B095}"
 	ProjectSection(ProjectDependencies) = postProject
+		{1CC0D62B-CC61-4966-9DEC-AE18076C1061} = {1CC0D62B-CC61-4966-9DEC-AE18076C1061}
 		{0C42445E-96F1-4ED0-B14A-121460A0789A} = {0C42445E-96F1-4ED0-B14A-121460A0789A}
 		{E385FD9F-1950-481E-B757-F4908D7141CA} = {E385FD9F-1950-481E-B757-F4908D7141CA}
 	EndProjectSection
@@ -25,6 +26,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hatchetfish", "hatchetfish\hatchetfish.vcxproj", "{E385FD9F-1950-481E-B757-F4908D7141CA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fluxions-gte", "fluxions-gte\fluxions-gte.vcxproj", "{0C42445E-96F1-4ED0-B14A-121460A0789A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fluxions-base", "fluxions-base\fluxions-base.vcxproj", "{1CC0D62B-CC61-4966-9DEC-AE18076C1061}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C42445E-96F1-4ED0-B14A-121460A0789A} = {0C42445E-96F1-4ED0-B14A-121460A0789A}
+		{E385FD9F-1950-481E-B757-F4908D7141CA} = {E385FD9F-1950-481E-B757-F4908D7141CA}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +77,12 @@ Global
 		{0C42445E-96F1-4ED0-B14A-121460A0789A}.Release|x64.ActiveCfg = Release|x64
 		{0C42445E-96F1-4ED0-B14A-121460A0789A}.Release|x64.Build.0 = Release|x64
 		{0C42445E-96F1-4ED0-B14A-121460A0789A}.Release|x86.ActiveCfg = Release|x64
+		{1CC0D62B-CC61-4966-9DEC-AE18076C1061}.Debug|x64.ActiveCfg = Debug|x64
+		{1CC0D62B-CC61-4966-9DEC-AE18076C1061}.Debug|x64.Build.0 = Debug|x64
+		{1CC0D62B-CC61-4966-9DEC-AE18076C1061}.Debug|x86.ActiveCfg = Debug|x64
+		{1CC0D62B-CC61-4966-9DEC-AE18076C1061}.Release|x64.ActiveCfg = Release|x64
+		{1CC0D62B-CC61-4966-9DEC-AE18076C1061}.Release|x64.Build.0 = Release|x64
+		{1CC0D62B-CC61-4966-9DEC-AE18076C1061}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
