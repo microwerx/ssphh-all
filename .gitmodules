@@ -19,3 +19,12 @@
 [submodule "fluxions-base"]
 	path = fluxions-base
 	url = https://github.com/microwerx/fluxions-base
+[submodule "viperfish"]
+	path = viperfish
+	url = https://github.com/microwerx/viperfish
+[submodule "unicornfish"]
+	path = unicornfish
+	url = https://github.com/microwerx/unicornfish
+[submodule "damselfish"]
+	path = damselfish
+	url = https://github.com/microwerx/damselfish
