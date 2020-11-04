@@ -28,3 +28,6 @@
 [submodule "damselfish"]
 	path = damselfish
 	url = https://github.com/microwerx/damselfish
+[submodule "starfish"]
+	path = starfish
+	url = https://github.com/microwerx/starfish
