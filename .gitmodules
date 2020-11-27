@@ -31,3 +31,12 @@
 [submodule "starfish"]
 	path = starfish
 	url = https://github.com/microwerx/starfish
+[submodule "fluxions-ssg"]
+	path = fluxions-ssg
+	url = https://github.com/microwerx/fluxions-ssg
+[submodule "fluxions-renderer-gles30"]
+	path = fluxions-renderer-gles30
+	url = https://github.com/microwerx/fluxions-renderer-gles30
+[submodule "fluxions-renderer"]
+	path = fluxions-renderer
+	url = https://github.com/microwerx/fluxions-renderer
