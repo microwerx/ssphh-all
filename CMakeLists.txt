@@ -32,6 +32,8 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/fluxions-ssg)
 add_subdirectory(${PROJECT_SOURCE_DIR}/fluxions-renderer)
 add_subdirectory(${PROJECT_SOURCE_DIR}/fluxions)
 add_subdirectory(${PROJECT_SOURCE_DIR}/starfish)
+add_subdirectory(${PROJECT_SOURCE_DIR}/viperfish)
+add_subdirectory(${PROJECT_SOURCE_DIR}/unicornfish)
 add_subdirectory(${PROJECT_SOURCE_DIR}/ssphh)
 
 #add_subdirectory(ssphh-tests)
