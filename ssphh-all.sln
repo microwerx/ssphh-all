@@ -62,6 +62,11 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fluxions-renderer-gles30", "fluxions-renderer-gles30\fluxions-renderer-gles30.vcxproj", "{2EF53707-7387-4A85-BB3D-72E600C704B6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fluxions-renderer", "fluxions-renderer\fluxions-renderer.vcxproj", "{F76EAB03-3460-4D7C-B072-508560004F0F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC0D1178-B439-454C-A52D-6A301F180B30} = {EC0D1178-B439-454C-A52D-6A301F180B30}
+		{EF2BA77A-4865-4DE0-9DFB-EBD98D5356DE} = {EF2BA77A-4865-4DE0-9DFB-EBD98D5356DE}
+		{E385FD9F-1950-481E-B757-F4908D7141CA} = {E385FD9F-1950-481E-B757-F4908D7141CA}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
