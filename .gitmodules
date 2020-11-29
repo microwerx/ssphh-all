@@ -13,9 +13,6 @@
 [submodule "fluxions-gte"]
 	path = fluxions-gte
 	url = https://github.com/microwerx/fluxions-gte
-[submodule "imgui"]
-	path = imgui
-	url = https://github.com/ocornut/imgui
 [submodule "fluxions-base"]
 	path = fluxions-base
 	url = https://github.com/microwerx/fluxions-base
