@@ -68,6 +68,18 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fluxions-renderer", "fluxio
 		{E385FD9F-1950-481E-B757-F4908D7141CA} = {E385FD9F-1950-481E-B757-F4908D7141CA}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E659C42-9BAA-4BFB-8628-EF42F433D876}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		CMakeLists.txt = CMakeLists.txt
+		gitpull.ps1 = gitpull.ps1
+		gitpush.ps1 = gitpush.ps1
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
