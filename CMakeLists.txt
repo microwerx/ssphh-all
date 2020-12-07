@@ -1,13 +1,14 @@
 cmake_minimum_required(VERSION 3.16)
 project(ssphh-all)
 
+set(CMAKE_C_STANDARD            99)
+set(CMAKE_C_STANDARD_REQUIRED   ON)
+set(CMAKE_CXX_EXTENSIONS        OFF)
+set(CMAKE_CXX_STANDARD          17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_EXTENSIONS OFF)
 
 if (APPLE)
     include_directories(/usr/local/include)
-    set(STD_CXX_FS c++fs)
 endif()
 
 include_directories(${PROJECT_SOURCE_DIR}/imgui)
