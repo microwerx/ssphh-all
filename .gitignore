@@ -375,6 +375,9 @@ dock-medium.*
 # CMake
 build/**/
 !build/.keep
+out/**/
 
 # SSPHH files
-corona_export/
+corona_export/**/
+corona_output/**/
+output/**/
